@@ -2,17 +2,16 @@
   # AzureRM provider 2.x
   #version = "~>2.0"
   # v2.x required "features" block
- # features {}
+ # 
 #}
+
 
 provider "azurerm" {
 
-features {} 
+  features {}
 
-  subscription_id = ""
-  client_id       = ""
-  client_secret   = ""
-  tenant_id       = ""
-
-
+  subscription_id = var.azure-subscription-id
+  client_id       = var.azure-client-id
+  client_secret   = var.azure-client-secret
+  tenant_id       = var.azure-tenant-id
  }
