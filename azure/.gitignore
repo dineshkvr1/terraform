@@ -1,5 +1,0 @@
-.terraform
-.terraform.*
-terraform.*
-override.tf
-_*
