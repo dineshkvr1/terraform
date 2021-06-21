@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "example" {
-  name     = "actifio-appliances-east"
+  name     = "actifio-appliances-east1"
   location = "East US"
 }
 
